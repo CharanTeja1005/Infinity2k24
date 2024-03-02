@@ -65,7 +65,7 @@ const events: Event[] = [
     id: 2,
     poster: dummyPoster,
     title: "event-title-1",
-    description: "event description",
+    description: '<div> hkjhjkgjhghj <br/> jsfldkj </div>',
     form_link: "http-link",
   },
   {

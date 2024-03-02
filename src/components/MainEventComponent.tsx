@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import Card from "./Card";
-import { ReactTyped } from "react-typed";
-import dummyPoster from '../assets/dummy-poster.jpg'
 import ThreeDCardComponent from "./ThreeDCardComponent";
 import { CardBody, CardContainer, CardItem } from "./ui/3dCard";
 
