@@ -1,6 +1,7 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import { Cross1Icon } from '@radix-ui/react-icons';
+import HeroParallaxComponent from '../components/HeroParallaxComponent';
 import img1 from "../assets/gallery/IMG20230325104956.jpg"
 import img2 from "../assets/gallery/IMG20230325105037.jpg"
 import img3 from "../assets/gallery/IMG20230325105048.jpg"
@@ -44,11 +45,12 @@ const GalleryPage: React.FC = () => {
 
   return (
     <div className='my-4'>
-      <h1 className="text-3xl lg:text-5xl font-bold text-center mb-8">
+      {/* <h1 className="text-3xl lg:text-5xl font-bold text-center mb-8">
         <span className="inline bg-gradient-to-r from-[#f493cf]  to-[#ff00b7] text-transparent bg-clip-text">
           GALLERY
         </span>
-      </h1>
+      </h1> */}
+      <HeroParallaxComponent/>
       <HorizontalScrollCarousel openImage={openImage} />
       {selectedImage && (
         <ImageModal url={selectedImage} onClose={closeImage} />

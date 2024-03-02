@@ -7,15 +7,29 @@ const TracingBeam: React.FC<{
   className?: string;
 }> = ({ children, className }) => {
   const ref = useRef<HTMLDivElement>(null);
-  const contentRef = useRef<HTMLDivElement>(null); // Declare contentRef
+  const contentRef = useRef<HTMLDivElement>(null);
   const [svgHeight, setSvgHeight] = useState(0);
   const { scrollYProgress } = useScroll();
 
   useEffect(() => {
-    if (ref.current) {
-      setSvgHeight(ref.current.offsetHeight);
+    const calculateHeight = () => {
+      if (contentRef.current) {
+        setSvgHeight(contentRef.current.offsetHeight);
+      }
+    };
+
+    calculateHeight(); // Initial calculation
+
+    // Recalculate height after the content has fully rendered
+    const resizeObserver = new ResizeObserver(calculateHeight);
+    if (contentRef.current) {
+      resizeObserver.observe(contentRef.current);
     }
-  }, []);   
+
+    return () => {
+      resizeObserver.disconnect();
+    };
+  }, [children]);
 
   const y1 = useSpring(
     useTransform(scrollYProgress, [0, 0.8], [50, svgHeight]),
@@ -68,7 +82,7 @@ const TracingBeam: React.FC<{
         <svg
           viewBox={`0 0 20 ${svgHeight}`}
           width="20"
-          height={svgHeight} // Set the SVG height
+          height={svgHeight}
           className=" ml-4 block"
           aria-hidden="true"
         >
@@ -97,8 +111,8 @@ const TracingBeam: React.FC<{
               gradientUnits="userSpaceOnUse"
               x1="0"
               x2="0"
-              y1={y1} // set y1 for gradient
-              y2={y2} // set y2 for gradient
+              y1={y1}
+              y2={y2}
             >
               <stop stopColor="#18CCFC" stopOpacity="0"></stop>
               <stop stopColor="#18CCFC"></stop>
@@ -108,7 +122,7 @@ const TracingBeam: React.FC<{
           </defs>
         </svg>
       </div>
-      <div ref={contentRef}>{children}</div> {/* Use contentRef here */}
+      <div ref={contentRef}>{children}</div>
     </div>
   );
 };
