@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Card from "./Card";
 import { ReactTyped } from "react-typed";
 import dummyPoster from '../assets/dummy-poster.jpg'
+import ThreeDCardComponent from "./ThreeDCardComponent";
+import { CardBody, CardContainer, CardItem } from "./ui/3dCard";
 
 interface EventInfo {
   id: number;
@@ -23,72 +25,80 @@ const MainEventComponent: React.FC<MainEventComponentProps> = (props) => {
     event_info[0]
   );
 
-  const cards = event_info.map((event: EventInfo) => (
-    <div
-      onClick={() => {
-        if (event.id === eventInfoCard?.id && showcard) {
-          setShowcard(false);
-        } else {
-          setEventInfoCard(event);
-          setShowcard(true);
-          window.scrollTo(0, 0);
-        }
-      }}
-    >
-      <Card
-        // type=""
+  const cards = event_info.map((event: EventInfo) => {
+
+    return (
+      <div
+        onClick={() => {
+            if (event.id === eventInfoCard?.id && showcard) {
+                setShowcard(false);
+              } else {
+                  setEventInfoCard(event);
+                  setShowcard(true);
+                  window.scrollTo(0, 0);
+                }
+              }}
+            >
+      <ThreeDCardComponent title={event.title} poster={event.poster}  />
+          </div>
+          )
+          {/* <Card
+          // type=""
         // key={event.id}
         poster={event.poster}
         title={event.title}
         description=""
         form_link={event.form_link}
-      />
-    </div>
-  ));
+      /> */}
+    }
+      );
 
   return (
-    <div className="flex flex-col-reverse md:grid md:grid-cols-2 m-10">
-      <div className="  flex flex-col justify-center items-center gap-5 overflow-auto">
+    <div className="flex  flex-col-reverse md:grid md:grid-cols-2 m-10">
+      <div className="  flex flex-col justify-center items-center gap-5">
         {cards}
       </div>
       <div
-        className={`border border-white flex justify-center ${
+        className={`flex justify-center ${
           showcard ? "visible" : "hidden"
         } h-fit`}
       >
-        {/* <CardSkeleton /> */}
-        <div className="p-8 max-w-lg border border-indigo-300 rounded-2xl hover:shadow-xl hover:shadow-indigo-50 flex flex-col items-center">
+       <CardContainer className="inter-var">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+        <CardItem
+          translateZ="50"
+          className="text-xl font-bold text-neutral-600 dark:text-white"
+        >
+          {eventInfoCard?.title}
+        </CardItem>
+
+        <CardItem translateZ="100" className="w-full mt-4">
           <img
-            src={dummyPoster}
-            className="shadow rounded-lg overflow-hidden border"
+            src={eventInfoCard?.poster}
+            height="1000"
+            width="1000"
+            className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            alt="thumbnail"
           />
-          <div className="mt-8">
-            <h4 className="font-bold text-xl">
-              <ReactTyped
-                startWhenVisible
-                showCursor={false}
-                typeSpeed={50}
-                strings={[eventInfoCard?.title || ""]}
-              />
-            </h4>
-            <p className="mt-2 text-gray-600">
-              <ReactTyped
-                startWhenVisible
-                showCursor={false}
-                typeSpeed={50}
-                strings={[eventInfoCard?.description || ""]}
-              />
-            </p>
-            <div className="mt-5">
-              <button
-                type="button"
-                className="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900"
-              >
-                form Link
-              </button>
-            </div>
-          </div>
+        </CardItem>
+        <CardItem
+          as="p"
+          translateZ="60"
+          className="text-neutral-500 text-left text-lg max-w-sm mt-2 dark:text-neutral-300"
+        >
+          {eventInfoCard?.description}
+        </CardItem>
+        <div className="flex justify-between items-center mt-20">
+          <CardItem
+            translateZ={20}
+            as="button"
+            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+          >
+            Form Link →
+          </CardItem>
         </div>
+      </CardBody>
+    </CardContainer>
       </div>
     </div>
   );
