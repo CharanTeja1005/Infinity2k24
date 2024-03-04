@@ -1,9 +1,7 @@
 import { FC } from "react";
 // import Footer from "../components/Footer";
 import BinarySeparator from "../components/BinarySeparator";
-// import WaterDropGridEffect from "../components/WaterDropGridEffect";
-import StarsCanvas from "../components/StarsCanvas";
-// import { MouseTrailComponent } from "../components/MouseTrailComponent";
+import WaterDropGridEffect from "../components/WaterDropGridEffect";
 import Hero from "../components/Hero";
 import AboutInfinity from "../components/AboutInfinity";
 import GenAIComponent from "../components/GenAIComponent";
@@ -12,12 +10,12 @@ import SponsorsComponent from "../components/SponsorsComponent";
 import DashDivider from "../components/DashDivider";
 import GalleryComponent from "../components/GalleryComponent";
 import EventsComponent from "../components/EventsComponent";
+import JoinUsComponent from "../components/JoinUsComponent";
 
 const Home: FC = () => {
   return (
     <div className="my-10 justify-items-center">
       <Hero />
-      {/* <StarsCanvas /> */}
 
       <BinarySeparator />
 
@@ -35,13 +33,18 @@ const Home: FC = () => {
 
       <OurTeamComponent />
       {/* <MouseTrailComponent/> */}
-      <DashDivider />
+      {/* <DashDivider />
 
-      <SponsorsComponent />
+      <SponsorsComponent /> */}
 
       <DashDivider />
 
       <GalleryComponent />
+
+      <DashDivider/>
+
+      <JoinUsComponent/>
+      
       {/* <StaggeredAnimationComponent/> */}
       {/* <div className="shadow h-[50vh]"></div> */}
     </div>

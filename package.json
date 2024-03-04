@@ -17,6 +17,7 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@react-three/drei": "^9.97.6",
     "@react-three/fiber": "^8.15.16",
+    "@tabler/icons-react": "^2.47.0",
     "@types/three": "^0.161.2",
     "animejs": "^3.2.2",
     "clsx": "^2.1.0",
@@ -30,6 +31,7 @@
     "react-router-dom": "^6.22.2",
     "react-typed": "^2.0.12",
     "simplex-noise": "^4.0.1",
+    "tabler": "^1.0.0-alpha.8",
     "tailwind-merge": "^2.2.1",
     "three": "^0.161.0"
   },

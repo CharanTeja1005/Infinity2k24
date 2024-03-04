@@ -2,7 +2,7 @@ import '../stylesheets/BinarySeparatorStyle.css'
 
 function BinarySeparator() {
   return (
-    <div className='BinarySeparatorStyle my-4'>
+    <div className='BinarySeparatorStyle my-8'>
     </div>
   )
 }

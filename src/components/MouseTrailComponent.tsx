@@ -71,7 +71,7 @@ export const MouseTrailComponent: React.FC = () => {
       ]}
     >
       <div className="flex flex-col">
-      <section className="grid h-[50vh] w-full place-content-center bg-zinc-900">
+      <section className="grid h-[70vh] w-full place-content-center bg-zinc-900 rounded-xl">
         <p className="flex items-center gap-2 text-3xl font-bold uppercase text-white">
           {isTouchDevice ? (
             <>

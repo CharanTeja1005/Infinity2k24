@@ -1,15 +1,27 @@
 import { FC } from 'react';
+import BorderMagicButton from './ui/BorderMagicButton';
 
 const EventsComponent: FC = () => {
   return (
-    <div className="flex items-center justify-center min-h-[60vh] bg-black">
-      <div className="flex flex-col md:flex-row items-center justify-center p-8">
-        <p className="text-6xl mb-8 md:mb-0 md:mr-4 text-white">Want to participate in events..?</p>
-        <a href='/events'>
-            <button className="text-lg px-8 py-4 rounded-full bg-gradient-to-r from-blue-400 to-blue-600 text-white font-bold shadow-lg hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 focus:ring-opacity-50 transition duration-300 ease-in-out hover:from-blue-500 hover:to-blue-700 hover:scale-105">
-                Know More
-            </button>
-        </a>
+    <div className="flex items-center justify-center min-h-[60vh]">
+      <div className="h-[50rem] w-full dark:bg-black bg-white  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex flex-col items-center justify-center">
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
+        <div className="mb-20"> {/* Adjust the margin top to add space */}
+          <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
+            Want to know more about 'EVENTS'?
+          </p>
+          <a href="/events">
+            <BorderMagicButton text="Know More"/>
+          </a>
+        </div>
+        <div className="mt-20"> {/* Adjust the margin top to add space */}
+          <p className="text-4xl sm:text-7xl font-bold relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-500 py-8">
+            Have a look at our SPONSORS...
+          </p>
+          <a href="/sponsors">
+            <BorderMagicButton text="Sponsors"/>
+          </a>
+        </div>
       </div>
     </div>
   );

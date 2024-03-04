@@ -25,10 +25,14 @@ const Footer: FC = () => {
             </div>
             {/* Second column */}
             <div className="text-white flex justify-center items-center pr-10 lg:justify-end">
-              {/* Social Icons */}
               <div className="flex flex-col gap-4 space-x-4">
+                <div className="text-xl font-bold">CONTACT US:</div>
+                <div className="text-xl font-light">V. Sujeeth Reddy : 7799726725</div>
+                <div className="text-xl font-light mb-2 pb-5">A. Bhargav : 6281515462</div>
+
+                {/* Social Icons */}
                 <div className='flex flex-row gap-4 justify-center align-middle'>
-                  <div className="text-xl font-bold mb-2 pb-5">FOLLOW US:</div>
+                  <div className="text-xl font-bold mb-2">FOLLOW US:</div>
                   <div>
                     <a href="https://www.instagram.com/infinity2k24ou/" className="text-gray-400 opacity-50 hover:opacity-100">
                       <img src={InstagramLogoWhite} className="h-8 w-8 sm:h-6 sm:w-6" alt="Instagram Logo">

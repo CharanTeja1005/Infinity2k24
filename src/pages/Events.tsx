@@ -5,7 +5,7 @@ import TracingBeam from '../components/ui/TracingBeam';
 
 const Events: FC = () => {
   return (
-    <TracingBeam className='px-6'>
+    <TracingBeam className='max-w-[1280px]'>
       <SuryaSpecailComponent events_info={events_info}/>
     </TracingBeam>
   );

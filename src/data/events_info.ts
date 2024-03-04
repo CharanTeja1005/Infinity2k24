@@ -6,6 +6,7 @@ interface Event {
   title: string;
   description: string;
   form_link: string;
+  button: boolean
 }
 
 const events: Event[] = [
@@ -60,6 +61,7 @@ const events: Event[] = [
     
     `,
     form_link: "http-link",
+    button: true,
   },
   {
     id: 2,
@@ -67,6 +69,7 @@ const events: Event[] = [
     title: "event-title-1",
     description: '<div> hkjhjkgjhghj <br/> jsfldkj </div>',
     form_link: "http-link",
+    button: true,
   },
   {
     id: 3,
@@ -74,6 +77,7 @@ const events: Event[] = [
     title: "event-title-1",
     description: "event description",
     form_link: "http-link",
+    button: true,
   },
   {
     id: 4,
@@ -81,6 +85,7 @@ const events: Event[] = [
     title: "event-title-1",
     description: "event description",
     form_link: "http-link",
+    button: true,
   },
 ];
 

@@ -7,7 +7,7 @@ interface OurTeamPageProps {}
 
 const OurTeamPage: FC<OurTeamPageProps> = () => {
   return (
-    <TracingBeam>
+    <TracingBeam className='max-w-[1280px]'>
       <MainTeamComponent team_info={team_info}/>
     </TracingBeam>
   );

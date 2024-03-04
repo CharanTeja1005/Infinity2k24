@@ -2,10 +2,15 @@ import { FC } from "react";
 import OUWhiteLogo from "../assets/OUWhiteLogo.png";
 import InfinityLogoWhite from "../assets/InfinityLogoWhite.png";
 import { CalendarIcon } from "@radix-ui/react-icons";
+import { SpotLight } from "./ui/SpotLight";
 
 const Hero: FC = () => {
   return (
     <div className="flex flex-1 my-10 lg:flex-row h-[60vh] lg:h-[80vh] align-middle justify-center">
+      <SpotLight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
       <main className="text-4xl lg:text-4xl font-bold">
         <h2 className="inline">Department of</h2>
         <br />
