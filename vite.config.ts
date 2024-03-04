@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   // base: "/Infinity2k24/",
   plugins: [react()],
+  base: "/Infinity2k24/"
 })
