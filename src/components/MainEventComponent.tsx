@@ -108,7 +108,7 @@ const BackgroundGradientCard = ({ event_info }: { event_info: EventInfo | undefi
       <BackgroundGradient className="rounded-[22px] p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <img
           src={event_info?.poster}
-          alt="jordans"
+          alt="event-poster"
           height="400"
           width="400"
           className="object-contain"

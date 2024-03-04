@@ -1,12 +1,10 @@
 import { FC } from "react";
 // import Footer from "../components/Footer";
 import BinarySeparator from "../components/BinarySeparator";
-import WaterDropGridEffect from "../components/WaterDropGridEffect";
 import Hero from "../components/Hero";
 import AboutInfinity from "../components/AboutInfinity";
 import GenAIComponent from "../components/GenAIComponent";
 import OurTeamComponent from "../components/OurTeamComponent";
-import SponsorsComponent from "../components/SponsorsComponent";
 import DashDivider from "../components/DashDivider";
 import GalleryComponent from "../components/GalleryComponent";
 import EventsComponent from "../components/EventsComponent";
