@@ -1,4 +1,3 @@
-import dummyPoster from "../assets/dummy-poster.jpg";
 import {
   TechnoThrone,
   CodeCraft,

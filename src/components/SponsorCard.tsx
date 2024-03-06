@@ -8,7 +8,7 @@ interface SponsorCardProps {
   image: string;
 }
 
-const SponsorCard: FC<SponsorCardProps> = ({ type, heading, amount, description, image }) => {
+const SponsorCard: FC<SponsorCardProps> = ({ heading, amount, description, image }) => {
   return (
     <div className="max-w-full md:max-w-md rounded overflow-hidden shadow-lg bg-gray-900 text-white m-4 relative lg:min-h-[25vh] lg:h-auto">
       <img className="absolute top-1 left-1 h-24 object-cover" src={image} alt="Sponsor Logo" />

@@ -8,7 +8,7 @@ interface CardProps {
   form_link?: string;
 }
 
-const Card: React.FC<CardProps> = ({ poster, title, description, form_link }) => {
+const Card: React.FC<CardProps> = ({ poster, title }) => {
   return (
     <div className="group relative cursor-pointer overflow-hidden bg-gray-900 px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
       <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-slate-800 transition-all duration-300 group-hover:scale-[10]"></span>

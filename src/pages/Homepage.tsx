@@ -30,10 +30,6 @@ const Home: FC = () => {
       <BinarySeparator />
 
       <OurTeamComponent />
-      {/* <MouseTrailComponent/> */}
-      {/* <DashDivider />
-
-      <SponsorsComponent /> */}
 
       <DashDivider />
 
@@ -42,9 +38,6 @@ const Home: FC = () => {
       <DashDivider/>
 
       <JoinUsComponent/>
-      
-      {/* <StaggeredAnimationComponent/> */}
-      {/* <div className="shadow h-[50vh]"></div> */}
     </div>
   );
 }

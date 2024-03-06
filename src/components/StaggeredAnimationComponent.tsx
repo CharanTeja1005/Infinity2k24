@@ -22,9 +22,6 @@ const StaggeredAnimationComponent: React.FC = () => {
 
     const staggerVisualizerEl = document.querySelector(`.${styles['stagger-visualizer']}`) as HTMLElement;
 
-    const grid: [number, number] = [20, 10];
-    const cell: number = 55;
-    const numberOfElements: number = grid[0] * grid[1];
 
     fitElementToParent(staggerVisualizerEl, 0);
 
