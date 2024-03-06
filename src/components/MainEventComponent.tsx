@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ThreeDCardComponent from "./ThreeDCardComponent";
 import { BackgroundGradient } from "./ui/BackgroundGradient";
-import { Cross1Icon } from '@radix-ui/react-icons';
+import { Cross1Icon } from "@radix-ui/react-icons";
 
 interface EventInfo {
   id: number;
@@ -37,7 +37,11 @@ const MainEventComponent: React.FC<MainEventComponentProps> = (props) => {
         }
       }}
     >
-      <ThreeDCardComponent title={event.title} poster={event.poster} button={event.button}/>
+      <ThreeDCardComponent
+        title={event.title}
+        poster={event.poster}
+        button={event.button}
+      />
     </div>
   ));
 
@@ -46,8 +50,12 @@ const MainEventComponent: React.FC<MainEventComponentProps> = (props) => {
       <div className="flex flex-col justify-center items-center gap-5">
         {cards}
       </div>
-      <div className={`flex justify-center ${showcard ? "visible" : "hidden"} h-fit`}>
-        <BackgroundGradientCard event_info={eventInfoCard}/>
+      <div
+        className={`flex justify-center ${
+          showcard ? "visible" : "hidden"
+        } h-fit`}
+      >
+        <BackgroundGradientCard event_info={eventInfoCard} />
       </div>
     </div>
   );
@@ -55,7 +63,11 @@ const MainEventComponent: React.FC<MainEventComponentProps> = (props) => {
 
 export default MainEventComponent;
 
-const BackgroundGradientCard = ({ event_info }: { event_info: EventInfo | undefined }) => {
+const BackgroundGradientCard = ({
+  event_info,
+}: {
+  event_info: EventInfo | undefined;
+}) => {
   const [isFullScreen, setIsFullScreen] = useState(false);
 
   // Handle full-screen toggle
@@ -117,15 +129,15 @@ const BackgroundGradientCard = ({ event_info }: { event_info: EventInfo | undefi
         <p className="text-xl font-bold text-neutral-600 dark:text-white lg:my-4">
           {event_info?.title}
         </p>
+
         <p className="text-neutral-500 text-left text-lg max-w-sm mt-2 dark:text-neutral-300">
           {event_info?.description.split("\n").map((line) => {
             return <div key={line}>{line}</div>;
           })}
         </p>
-        <a href={event_info?.form_link}>
+        <a href={event_info?.form_link} target="_blank">
           <button className="px-4 py-2 rounded-xl bg-black text-white text-xs font-bold my-3">
-            <span>Form Link </span>
-            →
+            <span>Form Link </span>→
           </button>
         </a>
       </BackgroundGradient>
