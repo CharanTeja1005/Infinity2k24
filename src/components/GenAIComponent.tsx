@@ -3,58 +3,41 @@ import StickyScroll from './ui/ScrollReveal';
 
 const content = [
     {
-      title: "Intro to Generative AI",
+      title: "Unleashing Generative AI: A Journey into Creative Intelligence",
       description:
-        "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
+        "Generative AI is a type of artificial intelligence that can create new data, like images, text, or music, similar to what it has been trained on. It's used in art, music, and other creative fields, as well as in areas like healthcare and gaming. However, its use raises ethical concerns that need to be addressed.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Collaborative Editing
+          Unleashing Generative AI: A Journey into Creative Intelligence
         </div>
       ),
     },
     {
-      title: "Types of Gen AI",
-      description:
-        "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
+      title: "Genres of AI that Produce New Data",
+      description: "Various AI models, such as BigGAN, StyleGAN2, CLIP, DALL-E, Turing-NLG, PULSE, and VQ-VAE-2, excel in generating new data across different domains. These models leverage advanced techniques to produce images, text, and other forms of data, contributing to the expansion of creative possibilities within artificial intelligence.",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
-          <img
-            src="/linear.webp"
-            width={300}
-            height={300}
-            className="h-full w-full object-cover"
-            alt="linear board demo"
-          />
+          Genres of AI that Produce New Data
         </div>
       ),
     },
     {
-      title: "Applications of Gen AI",
+      title: "Exploring the Frontiers: Innovative Uses of Generative AI",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "Innovative uses of generative AI span diverse domains, showcasing its versatility and impact. From content generation and data augmentation to personalized recommendations and healthcare applications, generative AI is reshaping industries and driving creative solutions. It facilitates simulation and modeling, aids in anomaly detection, and enhances natural language processing. Moreover, its influence extends to gaming, entertainment, and fostering artificial creativity. These frontiers collectively highlight the breadth of generative AI's capabilities and its transformative potential across various sectors.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-          Version control
+          Exploring the Frontiers: Innovative Uses of Generative AI
         </div>
       ),
     },
     {
-      title: "Challenges and ethical considerations",
+      title: "Navigating Ethics and Creativity in Generative AI",
       description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
+        "In the realm of generative AI, ethical and creative considerations loom large. Issues such as bias, misinformation, privacy, security, and regulatory compliance demand attention. Additionally, the resource-intensive nature of AI models poses sustainability challenges. Ensuring robustness and incorporating human oversight are vital for ethical AI development. By navigating these complexities, we can foster creativity while upholding ethical standards in generative AI.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Running out of content
-        </div>
-      ),
-    },
-    {
-      title: "Future trends and Possibilities",
-      description:
-        "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-      content: (
-        <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Running out of content
+          Navigating Ethics and Creativity in Generative AI
         </div>
       ),
     },

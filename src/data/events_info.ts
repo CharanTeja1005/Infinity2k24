@@ -102,7 +102,7 @@ const events: Event[] = [
     ☎️Godavari : 7013299062
     `,
     form_link: "http-link",
-    button: true,
+    button: false,
   },
   {
     id: 3,

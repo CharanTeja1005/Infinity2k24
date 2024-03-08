@@ -11,13 +11,13 @@ function AboutInfinity(): JSX.Element {
               </span>
             </p>
           </h2>
-      <div className="container mx-auto px-4 flex flex-col lg:flex-row">
+      <div className="container mx-auto px-4 flex flex-col lg:flex-row max-w-[900px]">
         <div className="flex w-full lg:w-1/2 lg:order-2 items-center justify-center">
-          <img src={InfinityImg} alt="Infinity Event" className="w-1/3 lg:w-1/2 mx-auto lg:mx-0" />
+          <img src={InfinityImg} alt="Infinity Event" className="w-2/3 lg:w-2/3 mx-auto lg:mx-0" />
         </div>
         <div className="lg:w-1/2 lg:order-1">
-          <p className="text-lg lg:text-3xl text-center lg:text-left leading-relaxed">
-            Welcome to INFINITY, the premier National level technical symposium hosted by the esteemed CSE Department, University College of Engineering. INFINITY isn't just about technology; it's a celebration of creativity and diversity. Engage in lively discussions, dive into thrilling competitions, and enjoy fun-filled games that promise excitement and laughter. Come join us on March 22nd and 23rd for an unforgettable fusion of technical and cultural celebration.
+          <p className="text-lg lg:text-xl text-center leading-relaxed">
+            Welcome to INFINITY, the premier National level technical symposium hosted by the esteemed CSE Department, University College of Engineering. <br/>INFINITY isn't just about technology; it's a celebration of creativity and diversity. Engage in lively discussions, dive into thrilling competitions, and enjoy fun-filled games that promise excitement and laughter. Come join us on March 22nd and 23rd for an unforgettable fusion of technical and cultural celebration.
           </p>
         </div>
       </div>

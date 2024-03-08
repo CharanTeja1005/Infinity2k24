@@ -8,6 +8,7 @@ import Home from "./pages/Homepage";
 import SponsorsPage from "./pages/SponsorsPage";
 import GalleryPage from "./pages/GalleryPage";
 import OurTeamPage from "./pages/OurTeamPage";
+import Workshop from './pages/Workshop'
 
 const rootElement = document.getElementById("root");
 
@@ -18,7 +19,7 @@ const routing = (
         <Route path="/" element={<Home />} />
         <Route path="/events" element={<Events />} />
         <Route path="/gallery" element={<GalleryPage />} />
-        <Route path="/workshop" element={<div>workshop</div>} />
+        <Route path="/workshop" element={<Workshop/>} />
         <Route path="/sponsors" element={<SponsorsPage />} />
         <Route path="/our-team" element={<OurTeamPage />} />
       </Route>

@@ -2,25 +2,25 @@ import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import { Cross1Icon } from '@radix-ui/react-icons';
 import HeroParallaxComponent from '../components/HeroParallaxComponent';
-// import img1 from "../assets/gallery/IMG20230325104956.jpg"
-// import img2 from "../assets/gallery/IMG20230325105037.jpg"
-// import img3 from "../assets/gallery/IMG20230325105048.jpg"
-// import img4 from "../assets/gallery/IMG20230325110308.jpg"
-// import img5 from "../assets/gallery/IMG20230325110323.jpg"
-// import img6 from "../assets/gallery/IMG20230325104958.jpg"
-// import img7 from "../assets/gallery/IMG20230325105041.jpg"
-// import img8 from "../assets/gallery/IMG20230325105647.jpg"
-// import img9 from "../assets/gallery/IMG20230325110310.jpg"
-// import img10 from "../assets/gallery/IMG20230325110325.jpg"
-// import img11 from "../assets/gallery/IMG20230325105000.jpg"
-// import img12 from "../assets/gallery/IMG20230325105042.jpg"
-// import img13 from "../assets/gallery/IMG20230325105648.jpg"
-// import img14 from "../assets/gallery/IMG20230325110314.jpg"
-// import img15 from "../assets/gallery/IMG20230325110326.jpg"
-// import img16 from "../assets/gallery/IMG20230325105002.jpg"
-// import img17 from "../assets/gallery/IMG20230325105047.jpg"
-// import img18 from "../assets/gallery/IMG20230325105651.jpg"
-// import img19 from "../assets/gallery/IMG20230325110316.jpg"
+import img1 from "../assets/gallery/IMG.jpg"
+import img2 from "../assets/gallery/IMG001.jpg"
+import img3 from "../assets/gallery/IMG011.jpg"
+import img4 from "../assets/gallery/IMG017.jpg"
+import img5 from "../assets/gallery/IMG015.jpg"
+import img6 from "../assets/gallery/IMG007.jpg"
+import img7 from "../assets/gallery/IMG015.jpg"
+import img8 from "../assets/gallery/IMG002.jpg"
+import img9 from "../assets/gallery/IMG004.jpg"
+import img10 from "../assets/gallery/IMG006.jpg"
+import img11 from "../assets/gallery/IMG009.jpg"
+import img12 from "../assets/gallery/IMG008.jpg"
+import img13 from "../assets/gallery/IMG010.jpg"
+import img14 from "../assets/gallery/IMG012.jpg"
+import img15 from "../assets/gallery/IMG013.jpg"
+import img16 from "../assets/gallery/IMG018.jpg"
+import img17 from "../assets/gallery/IMG016.jpg"
+import img18 from "../assets/gallery/IMG014.jpg"
+import img19 from "../assets/gallery/IMG002.jpg"
 
 interface Card {
   url: string;
@@ -164,23 +164,23 @@ const ImageModal: React.FC<ImageModalProps> = ({ url, onClose }) => {
 export default GalleryPage;
 
 const cards: Card[] = [
-  // { url: img1, id: 1 },
-  // { url: img2, id: 2 },
-  // { url: img3, id: 3 },
-  // { url: img4, id: 4 },
-  // { url: img5, id: 5 },
-  // { url: img6, id: 6 },
-  // { url: img7, id: 7 },
-  // { url: img8, id: 8 },
-  // { url: img9, id: 9 },
-  // { url: img10, id: 10 },
-  // { url: img11, id: 11 },
-  // { url: img12, id: 12 },
-  // { url: img13, id: 13 },
-  // { url: img14, id: 14 },
-  // { url: img15, id: 15 },
-  // { url: img16, id: 16 },
-  // { url: img17, id: 17 },
-  // { url: img18, id: 18 },
-  // { url: img19, id: 19 }
+  { url: img1, id: 1 },
+  { url: img2, id: 2 },
+  { url: img3, id: 3 },
+  { url: img4, id: 4 },
+  { url: img5, id: 5 },
+  { url: img6, id: 6 },
+  { url: img7, id: 7 },
+  { url: img8, id: 8 },
+  { url: img9, id: 9 },
+  { url: img10, id: 10 },
+  { url: img11, id: 11 },
+  { url: img12, id: 12 },
+  { url: img13, id: 13 },
+  { url: img14, id: 14 },
+  { url: img15, id: 15 },
+  { url: img16, id: 16 },
+  { url: img17, id: 17 },
+  { url: img18, id: 18 },
+  { url: img19, id: 19 }
 ];

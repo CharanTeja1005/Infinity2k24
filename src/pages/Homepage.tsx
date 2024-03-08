@@ -9,6 +9,7 @@ import DashDivider from "../components/DashDivider";
 import GalleryComponent from "../components/GalleryComponent";
 import EventsComponent from "../components/EventsComponent";
 import JoinUsComponent from "../components/JoinUsComponent";
+import OurFacultyComponent from "../components/OurFacultyComponent";
 
 const Home: FC = () => {
   return (
@@ -26,6 +27,10 @@ const Home: FC = () => {
       <BinarySeparator />
 
       <EventsComponent/>
+
+      <BinarySeparator />
+
+      <OurFacultyComponent/>
 
       <BinarySeparator />
 
