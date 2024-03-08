@@ -3,7 +3,6 @@ import InfinityLogoWhite from '../assets/InfinityLogoWhite.png';
 import LinkedInLogoWhite from '../assets/LinkedInLogoWhite.png';
 import '../stylesheets/FooterBorder.css';
 import InstagramLogoWhite from '../assets/InstagramLogoWhite.png';
-import { AnimatedTooltip } from './ui/AnimatedTooltip';
 import { AnimatedTooltipComponent } from './AnimatedTooltipComponent';
 
 const Footer: FC = () => {
