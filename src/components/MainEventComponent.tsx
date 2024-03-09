@@ -135,11 +135,12 @@ const BackgroundGradientCard = ({
             return <div key={line}>{line}</div>;
           })}
         </p>
-        <a href={event_info?.form_link} target="_blank">
+        
+        {event_info?.button && <a href={event_info?.form_link} target="_blank">
           <button className="px-4 py-2 rounded-xl bg-black text-white text-xs font-bold my-3">
             <span>Form Link </span>→
           </button>
-        </a>
+        </a>}
       </BackgroundGradient>
     </div>
   );

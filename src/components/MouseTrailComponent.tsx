@@ -4,23 +4,26 @@ import { FiMousePointer,  } from "react-icons/fi";
 import { MdTouchApp } from "react-icons/md";
 import img1 from "../assets/gallery/IMG.jpg"
 import img2 from "../assets/gallery/IMG001.jpg"
-import img3 from "../assets/gallery/IMG011.jpg"
-import img4 from "../assets/gallery/IMG017.jpg"
-import img5 from "../assets/gallery/IMG015.jpg"
-import img6 from "../assets/gallery/IMG007.jpg"
-import img7 from "../assets/gallery/IMG015.jpg"
-import img8 from "../assets/gallery/IMG002.jpg"
-import img9 from "../assets/gallery/IMG004.jpg"
-import img10 from "../assets/gallery/IMG006.jpg"
-import img11 from "../assets/gallery/IMG009.jpg"
-import img12 from "../assets/gallery/IMG008.jpg"
-import img13 from "../assets/gallery/IMG010.jpg"
-import img14 from "../assets/gallery/IMG012.jpg"
-import img15 from "../assets/gallery/IMG013.jpg"
-import img16 from "../assets/gallery/IMG018.jpg"
-import img17 from "../assets/gallery/IMG016.jpg"
-import img18 from "../assets/gallery/IMG014.jpg"
-import img19 from "../assets/gallery/IMG002.jpg"
+import img3 from "../assets/gallery/IMG002.jpg"
+import img4 from "../assets/gallery/IMG003.jpg"
+import img5 from "../assets/gallery/IMG004.jpg"
+import img6 from "../assets/gallery/IMG006.jpg"
+import img7 from "../assets/gallery/IMG007.jpg"
+import img8 from "../assets/gallery/IMG008.jpg"
+import img9 from "../assets/gallery/IMG009.jpg"
+import img10 from "../assets/gallery/IMG010.jpg"
+import img11 from "../assets/gallery/IMG011.jpg"
+import img12 from "../assets/gallery/IMG012.jpg"
+import img13 from "../assets/gallery/IMG013.jpg"
+import img14 from "../assets/gallery/IMG014.jpg"
+import img15 from "../assets/gallery/IMG016.jpg"
+import img16 from "../assets/gallery/IMG015.jpg"
+import img17 from "../assets/gallery/IMG017.jpg"
+import img18 from "../assets/gallery/IMG018.jpg"
+import img19 from '../assets/gallery/IMG019.jpg'
+import img20 from '../assets/gallery/IMG020.jpeg'
+import img21 from '../assets/gallery/IMG021.jpg'
+import img22 from '../assets/gallery/IMG022.jpg'
 
 export const MouseTrailComponent: React.FC = () => {
   const [isTouchDevice, setIsTouchDevice] = useState<boolean>(false);
@@ -51,14 +54,17 @@ export const MouseTrailComponent: React.FC = () => {
       images={[
         img1,
         img2,
+        img21,
         img3,
         img4,
         img5,
         img6,
+        img22,
         img7,
         img8,
         img9,
         img10,
+        img20,
         img11,
         img12,
         img13,
@@ -67,7 +73,7 @@ export const MouseTrailComponent: React.FC = () => {
         img16,
         img17,
         img18,
-        img19
+        img19,
       ]}
     >
       <div className="flex flex-col">

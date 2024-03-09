@@ -4,23 +4,26 @@ import { Cross1Icon } from '@radix-ui/react-icons';
 import HeroParallaxComponent from '../components/HeroParallaxComponent';
 import img1 from "../assets/gallery/IMG.jpg"
 import img2 from "../assets/gallery/IMG001.jpg"
-import img3 from "../assets/gallery/IMG011.jpg"
-import img4 from "../assets/gallery/IMG017.jpg"
-import img5 from "../assets/gallery/IMG015.jpg"
-import img6 from "../assets/gallery/IMG007.jpg"
-import img7 from "../assets/gallery/IMG015.jpg"
-import img8 from "../assets/gallery/IMG002.jpg"
-import img9 from "../assets/gallery/IMG004.jpg"
-import img10 from "../assets/gallery/IMG006.jpg"
-import img11 from "../assets/gallery/IMG009.jpg"
-import img12 from "../assets/gallery/IMG008.jpg"
-import img13 from "../assets/gallery/IMG010.jpg"
-import img14 from "../assets/gallery/IMG012.jpg"
-import img15 from "../assets/gallery/IMG013.jpg"
-import img16 from "../assets/gallery/IMG018.jpg"
-import img17 from "../assets/gallery/IMG016.jpg"
-import img18 from "../assets/gallery/IMG014.jpg"
-import img19 from "../assets/gallery/IMG002.jpg"
+import img3 from "../assets/gallery/IMG002.jpg"
+import img4 from "../assets/gallery/IMG003.jpg"
+import img5 from "../assets/gallery/IMG004.jpg"
+import img6 from "../assets/gallery/IMG006.jpg"
+import img7 from "../assets/gallery/IMG007.jpg"
+import img8 from "../assets/gallery/IMG008.jpg"
+import img9 from "../assets/gallery/IMG009.jpg"
+import img10 from "../assets/gallery/IMG010.jpg"
+import img11 from "../assets/gallery/IMG011.jpg"
+import img12 from "../assets/gallery/IMG012.jpg"
+import img13 from "../assets/gallery/IMG013.jpg"
+import img14 from "../assets/gallery/IMG014.jpg"
+import img15 from "../assets/gallery/IMG016.jpg"
+import img16 from "../assets/gallery/IMG015.jpg"
+import img17 from "../assets/gallery/IMG017.jpg"
+import img18 from "../assets/gallery/IMG018.jpg"
+import img19 from '../assets/gallery/IMG019.jpg'
+import img20 from '../assets/gallery/IMG020.jpeg'
+import img21 from '../assets/gallery/IMG021.jpg'
+import img22 from '../assets/gallery/IMG022.jpg'
 
 interface Card {
   url: string;
@@ -167,20 +170,23 @@ const cards: Card[] = [
   { url: img1, id: 1 },
   { url: img2, id: 2 },
   { url: img3, id: 3 },
+  { url: img21, id: 21 },
   { url: img4, id: 4 },
   { url: img5, id: 5 },
+  { url: img22, id: 22 },
   { url: img6, id: 6 },
   { url: img7, id: 7 },
   { url: img8, id: 8 },
   { url: img9, id: 9 },
   { url: img10, id: 10 },
   { url: img11, id: 11 },
+  { url: img20, id: 20 },
   { url: img12, id: 12 },
+  { url: img19, id: 19 },
   { url: img13, id: 13 },
   { url: img14, id: 14 },
   { url: img15, id: 15 },
   { url: img16, id: 16 },
   { url: img17, id: 17 },
   { url: img18, id: 18 },
-  { url: img19, id: 19 }
 ];
