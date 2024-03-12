@@ -6,7 +6,7 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import { cn } from "../../utils/cn";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 const Navbar = () => {
   const location = useLocation();
@@ -66,20 +66,20 @@ export const FloatingNav = ({
           className
         )}
       >
-        {navItems.map((navItem: any, idx: number) => (
-          <a
-            key={`link=${idx}`}
-            href={navItem.link}
-            className={cn(
-                navItem.link == Navbar() ?
-                "border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full" :
-                "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
-            )}
-          >
+        {navItems.map((navItem: any, _idx: number) => (
+          <Link
+          to={navItem.link}
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          className={cn(
+            navItem.link === Navbar()
+              ? "border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full"
+              : "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"
+          )}
+        >
             <span className="block sm:hidden">{navItem.icon}</span>
             <span className="hidden sm:block text-sm">{navItem.name}</span>
             {navItem.link == Navbar() && (<span className="absolute inset-x-0 w-1/2 z-1 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />)}
-          </a>
+          </Link>
         ))}
       </motion.div>
     </AnimatePresence>

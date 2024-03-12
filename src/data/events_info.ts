@@ -22,6 +22,134 @@ interface Event {
 
 const events: Event[] = [
   {
+    id: 5,
+    poster: INFYHUNT,
+    title: "INFYHUNT",
+    description: `🌟 INFINITY2k24 proudly presents its event INFYHUNT 🌟
+  
+    Embark on an epic journey with INFYHUNT 🗺️
+    Channel your inner adventurer and conquer each challenge with finesse! 🏅
+    Prepare to decipher clues and unravel mysteries 🔍
+    The thrill of the hunt awaits, are you ready to seize it? 💥
+    
+    Join us for an exhilarating treasure hunt where quick thinking and teamwork lead to victory! ⏱️
+    
+    Don't miss out on the excitement, register now and showcase your skills to win fantastic cash prizes! 💸
+    
+    👥 Team size: 4 to 5 members
+    🪙 Registration fee: 250/- per team
+    📆 Event date: 22 & 23 March,2024
+    🕙 Time: 10am onwards
+    📍 Venue: CSE dept, UCEOU.
+    
+    We provide participation certificates perfect for boosting your resume, plus memorable mementos for the victorious teams! 🏆 Spot Registrations available.
+    
+    Gear up for an unforgettable adventure! 🔥
+    
+    For any inquiries, Reach out to:
+    Charan Teja: +91 93906 55682
+    
+    Follow us for the latest updates:
+    https://www.instagram.com/Infinity2k24ou
+    🌐 Visit: www.infinity2k24.in
+    `,
+    form_link: "https://docs.google.com/forms/d/e/1FAIpQLSf-A0zdHV7ELGjFk7JChK_boC4w3Hbb2Gw4lHaYe5n6N6nyNg/viewform?usp=pp_url",
+    button: true,
+  },
+  {
+    id: 2,
+    poster: TechnoThrone,
+    title: "Techno Throne",
+    description: `Gear up to exhibit your analytical acumen and compete for remarkable rewards💸 at Techno Throne👑 Arena. Armed with a finite supply of tokens🎟️, strategically bid on inventive solutions for intricate problem statements to secure your triumph. Can you ascend to the zenith and claim your rightful place in the Techno Throne champion's circle?
+  
+  
+  
+    GAME RULES/PROCEDURE:
+    🌟 With the amount you paid 💰Rs 150, you will get 100 points with you initially.
+    🌟 You will be Displayed questions based on increasing order of difficulty
+    🌟 You cannot cheat, during your participation, with your mobiles📵.
+    🌟 For answering a question, you need to bid a question with highest number of points🪙.
+    🌟 If you bid more than your current number of points, ❌YOU WILL BE DISQUALIFIED❌.
+    🌟 If your answer to the question you bid on is correct✅, your bid points double. However, if the answer is incorrect❎, you lose the points you bid.
+    🌟 If your current points less than 40, you are out of the competition.
+    🌟 We will announce📢 your current points after each question.
+    🌟 If you know the answer correctly try to bid the highest amount (ONLY IF YOU ARE CONFIDENT😎) to win.
+    🌟 Incase most of them get same number of points, then we will go for round two✌🏻 with set of different questions and rules will be same as above👆🏻.
+    🌟 At the end of the questions, the one with highest number of points with them will be the winner🏆.
+    
+    
+    For any queries Contact:
+    
+    
+    ☎️Ganga: 9933219366
+    ☎️Godavari : 7013299062
+    `,
+    form_link: "",
+    button: false,
+  },
+  {
+    id: 5,
+    poster: Incognito,
+    title: "Incognito",
+    description: `Greetings, everyone!👋🏼
+    ✨Get ready for an exciting experience at *"Incognito"*, an extraordinary event by *INFINITY 2K24*, where limits are non-existent!
+    
+    Engage in this event crafted to challenge your critical thinking and boost your coding skills all while embracing the concept of *screen off, thinking on*. Let's embark on this exciting journey together! 💡👩‍💻
+    
+    Here's a glimpse of what awaits you:
+    🔍 Round 1: MCQs
+            Questions unveiled on the projector, with an added twist!
+    💻 Round 2: BLIND CODING
+            Tackle basic coding questions, but here’s the catch - with the monitor off!
+    
+    Join the event for a dose of fun and a chance to WIN EXCITING PRIZES! 🎁
+    Receive a CERTIFICATE OF PARTICIPATION that's bound to enhance your RESUME📄 profile! 🏅
+    
+    📅 Mark your calendars: March 22,23 2024
+    🕙 Starting at 10 am
+    🏛 Venue: CSE Department, OU
+    💰 Registration fee: 150/-
+    
+    Let's create lasting memories at this stellar event! ✨ 
+    Looking forward to your presence!
+    
+    For more details catch us at:
+    https://www.instagram.com/infinity2k24ou/         
+    
+    For any queries Contact:
+    Rajashree : +91 93907 47552
+    Ram Charan  : +91 77804 75902
+    `,
+    form_link: "https://docs.google.com/forms/d/e/1FAIpQLSdqFH6exiIO_Ec03xZ0O51eYwSb5haTwVI9jS1WSz4s4CQ2Cw/viewform?usp=sf_link",
+    button: true,
+  },
+  {
+    id: 6,
+    poster: PuzzelBit,
+    title: "Puzzle Bit",
+    description: `Greetings everyone!👋
+
+    Get ready to dive into the ultimate brain-bending adventure at Puzzle Bit, brought to you by the rockstar team from the Department of Computer Science 🚀.Don't miss out on the chance to add a participation certificate to your 🅡🅔🅢🅤🅜🅔 and show off your problem solving skills to future employers.
+    
+    Get ready to unlock your inner tech genius as you tackle puzzles, decode emojis, and conquer a mind-bending crossword. 🚀 Whether you’re a coding whiz or just love a good brain teaser, this event is your chance to shine! 🌟🤓
+    
+    🪙 Registration fee : 150/-
+    📅 Date : 22nd & 23rd of March
+    ⏰ Time : 10 AM onwards
+    📍 Venue : CSE Department, Osmania University
+    
+    💐Hoping to see you all 💐
+    
+    For more details catch us at:
+     https://www.instagram.com/infinity2k24ou?igsh=MWR4ZzA2eWRkbGcwaQ==
+    
+    For any queries Contact :
+    Sravya : 9392875845
+    Srija : 7093601611`,
+    form_link: "https://forms.gle/utcJ7Fpx5pRG6NGy8",
+    button: true,
+  },
+  {
     id: 3,
     poster: CodeCraft,
     title: "Code Craft",
@@ -146,105 +274,6 @@ const events: Event[] = [
     button: true,
   },
   {
-    id: 5,
-    poster: Incognito,
-    title: "Incognito",
-    description: `Greetings, everyone!👋🏼
-    ✨Get ready for an exciting experience at *"Incognito"*, an extraordinary event by *INFINITY 2K24*, where limits are non-existent!
-    
-    Engage in this event crafted to challenge your critical thinking and boost your coding skills all while embracing the concept of *screen off, thinking on*. Let's embark on this exciting journey together! 💡👩‍💻
-    
-    Here's a glimpse of what awaits you:
-    🔍 Round 1: MCQs
-            Questions unveiled on the projector, with an added twist!
-    💻 Round 2: BLIND CODING
-            Tackle basic coding questions, but here’s the catch - with the monitor off!
-    
-    Join the event for a dose of fun and a chance to WIN EXCITING PRIZES! 🎁
-    Receive a CERTIFICATE OF PARTICIPATION that's bound to enhance your RESUME📄 profile! 🏅
-    
-    📅 Mark your calendars: March 22,23 2024
-    🕙 Starting at 10 am
-    🏛 Venue: CSE Department, OU
-    💰 Registration fee: 150/-
-    
-    Let's create lasting memories at this stellar event! ✨ 
-    Looking forward to your presence!
-    
-    For more details catch us at:
-    https://www.instagram.com/infinity2k24ou/         
-    
-    For any queries Contact:
-    Rajashree : +91 93907 47552
-    Ram Charan  : +91 77804 75902
-    `,
-    form_link:
-      "https://docs.google.com/forms/d/e/1FAIpQLSdqFH6exiIO_Ec03xZ0O51eYwSb5haTwVI9jS1WSz4s4CQ2Cw/viewform?usp=sf_link",
-    button: true,
-  },
-  {
-    id: 5,
-    poster: INFYHUNT,
-    title: "INFYHUNT",
-    description: `🌟 INFINITY2k24 proudly presents its event INFYHUNT 🌟
-
-    Embark on an epic journey with INFYHUNT 🗺️
-    Channel your inner adventurer and conquer each challenge with finesse! 🏅
-    Prepare to decipher clues and unravel mysteries 🔍
-    The thrill of the hunt awaits, are you ready to seize it? 💥
-    
-    Join us for an exhilarating treasure hunt where quick thinking and teamwork lead to victory! ⏱️
-    
-    Don't miss out on the excitement, register now and showcase your skills to win fantastic cash prizes! 💸
-    
-    👥 Team size: 4 to 5 members
-    🪙 Registration fee: 250/- per team
-    📆 Event date: 22 & 23 March,2024
-    🕙 Time: 10am onwards
-    📍 Venue: CSE dept, UCEOU.
-    
-    We provide participation certificates perfect for boosting your resume, plus memorable mementos for the victorious teams! 🏆 Spot Registrations available.
-    
-    Gear up for an unforgettable adventure! 🔥
-    
-    For any inquiries, Reach out to:
-    Charan Teja:+91 93906 55682
-    
-    Follow us for the latest updates:
-    https://www.instagram.com/Infinity2k24ou
-    🌐 Visit: www.infinity2k24.in
-    `,
-    form_link:
-      "https://docs.google.com/forms/d/e/1FAIpQLSf-A0zdHV7ELGjFk7JChK_boC4w3Hbb2Gw4lHaYe5n6N6nyNg/viewform?usp=pp_url",
-    button: true,
-  },
-  {
-    id: 6,
-    poster: PuzzelBit,
-    title: "Puzzle Bit",
-    description: `Greetings everyone!👋
-
-    Get ready to dive into the ultimate brain-bending adventure at Puzzle Bit, brought to you by the rockstar team from the Department of Computer Science 🚀.Don't miss out on the chance to add a participation certificate to your 🅡🅔🅢🅤🅜🅔 and show off your problem solving skills to future employers.
-    
-    Get ready to unlock your inner tech genius as you tackle puzzles, decode emojis, and conquer a mind-bending crossword. 🚀 Whether you’re a coding whiz or just love a good brain teaser, this event is your chance to shine! 🌟🤓
-    
-    🪙 Registration fee : 150/-
-    📅 Date : 22nd & 23rd of March
-    ⏰ Time : 10 AM onwards
-    📍 Venue : CSE Department, Osmania University
-    
-    💐Hoping to see you all 💐
-    
-    For more details catch us at:
-     https://www.instagram.com/infinity2k24ou?igsh=MWR4ZzA2eWRkbGcwaQ==
-    
-    For any queries Contact :
-    Sravya : 9392875845
-    Srija : 7093601611`,
-    form_link: "https://forms.gle/utcJ7Fpx5pRG6NGy8",
-    button: true,
-  },
-  {
     id: 7,
     poster: QueryShots,
     title: "Query Shots",
@@ -299,7 +328,7 @@ Manikar: 9391466437
     
     🎁 Participants receive participation certificates, and winners take home unforgettable memories along with 𝕄𝕠𝕞𝕖𝕟𝕥𝕠𝕤! 🏆
     
-    📅 Event Dates: 22nd and 23th March 2024  
+    📅 Event Dates: 22nd and 23rd March 2024  
     
     Time: 10 am onwards 🕙
     
@@ -365,37 +394,6 @@ Manikar: 9391466437
     `,
     form_link: "https://forms.gle/fsJXN6Ley6eoNRbs5",
     button: true,
-  },
-  {
-    id: 2,
-    poster: TechnoThrone,
-    title: "Techno Throne",
-    description: `Gear up to exhibit your analytical acumen and compete for remarkable rewards💸 at Techno Throne👑 Arena. Armed with a finite supply of tokens🎟️, strategically bid on inventive solutions for intricate problem statements to secure your triumph. Can you ascend to the zenith and claim your rightful place in the Techno Throne champion's circle?
-  
-  
-  
-    GAME RULES/PROCEDURE:
-    🌟 With the amount you paid 💰Rs 150, you will get 100 points with you initially.
-    🌟 You will be Displayed questions based on increasing order of difficulty
-    🌟 You cannot cheat, during your participation, with your mobiles📵.
-    🌟 For answering a question, you need to bid a question with highest number of points🪙.
-    🌟 If you bid more than your current number of points, ❌YOU WILL BE DISQUALIFIED❌.
-    🌟 If your answer to the question you bid on is correct✅, your bid points double. However, if the answer is incorrect❎, you lose the points you bid.
-    🌟 If your current points less than 40, you are out of the competition.
-    🌟 We will announce📢 your current points after each question.
-    🌟 If you know the answer correctly try to bid the highest amount (ONLY IF YOU ARE CONFIDENT😎) to win.
-    🌟 Incase most of them get same number of points, then we will go for round two✌🏻 with set of different questions and rules will be same as above👆🏻.
-    🌟 At the end of the questions, the one with highest number of points with them will be the winner🏆.
-    
-    
-    For any queries Contact:
-    
-    
-    ☎️Ganga: 9933219366
-    ☎️Godavari : 7013299062
-    `,
-    form_link: "",
-    button: false,
   },
 ];
 

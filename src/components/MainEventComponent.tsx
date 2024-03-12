@@ -132,7 +132,7 @@ const BackgroundGradientCard = ({
 
         <p className="text-neutral-500 text-left text-lg max-w-sm mt-2 dark:text-neutral-300">
           {event_info?.description.split("\n").map((line) => {
-            return <div key={line}>{line}</div>;
+            return line == '' ? <br/> : <div key={line}>{line}</div>;
           })}
         </p>
         

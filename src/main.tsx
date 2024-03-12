@@ -9,6 +9,7 @@ import SponsorsPage from "./pages/SponsorsPage";
 import GalleryPage from "./pages/GalleryPage";
 import OurTeamPage from "./pages/OurTeamPage";
 import Workshop from './pages/Workshop'
+import PageNotFound from './pages/PageNotFound';
 
 const rootElement = document.getElementById("root");
 
@@ -16,12 +17,13 @@ const routing = (
   <Router>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/events" element={<Events />} />
-        <Route path="/gallery" element={<GalleryPage />} />
-        <Route path="/workshop" element={<Workshop/>} />
-        <Route path="/sponsors" element={<SponsorsPage />} />
-        <Route path="/our-team" element={<OurTeamPage />} />
+        <Route index element={<Home />} />
+        <Route path="events" element={<Events />} />
+        <Route path="gallery" element={<GalleryPage />} />
+        <Route path="workshop" element={<Workshop />} />
+        <Route path="sponsors" element={<SponsorsPage />} />
+        <Route path="our-team" element={<OurTeamPage />} />
+        <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>
   </Router>
@@ -29,7 +31,7 @@ const routing = (
 
 ReactDOM.createRoot(rootElement!).render(
   <React.StrictMode>
-    { routing }
-    {/* <StarsCanvas/> */}
+    {routing}
   </React.StrictMode>
 );
+

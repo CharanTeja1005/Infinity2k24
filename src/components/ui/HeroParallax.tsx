@@ -104,11 +104,13 @@ const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-        The Ultimate <br /> INFINITY 2k24 Gallery
+        The Ultimate <br /> INFINITY Gallery
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200 text-center">
-        Enti chusthunnav? Etluntadhi ani ha? <br/>
-        Jara kindha ki scroll chesi chudu vaay!
+      Step into the vibrant gallery of INFINITY, where memories bloom and laughter reverberates through each frame. With every scroll, immerse yourself in a kaleidoscope of moments, where the past intertwines with the present, inviting you to embark on a whimsical journey through time.
+
+
+
       </p>
     </div>
   );

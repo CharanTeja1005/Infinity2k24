@@ -35,9 +35,10 @@ const Footer: FC = () => {
               <div className="lg:w-1/2 mt-4 lg:mt-0">
                 <div className="flex flex-col gap-4">
                 <div className="flex flex-col gap-4 space-x-4 mt-4 lg:mt-0">
+                  <div className="text-xl font-bold">Reach us: <p className='text-xl font-light'>infinity2k24.oucse@gmail.com</p></div>
                   <div className="text-xl font-bold">CONTACT US:</div>
                   <div className="text-xl font-light">V. Sujeeth Reddy : 7799726725</div>
-                  <div className="text-xl font-light mb-2 pb-5">A. Bhargav : 6281515462</div>
+                  <div className="text-xl font-light mb-2 pb-2">A. Bhargav : 6281515462</div>
                 </div>
                   <div className="text-xl font-bold">FOLLOW US:</div>
                   <div className='flex flex-row gap-4 justify-center align-middle'>
